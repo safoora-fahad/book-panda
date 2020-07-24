@@ -1,0 +1,188 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #222;
+}
+
+body{
+    margin: 0;
+}
+
+.ratings i {
+    color: #d1c6b0;
+ 
+}
+
+.ratings {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+list-style: none;
+}
+
+img#logo {
+    height: 50px;
+    margin: 10px;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px 1em;
+}
+
+header img, header li {
+    background-color:rgba(255, 255, 255, 0.77);
+    border-radius: 10px;
+}
+
+header li > a {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+header ul{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#product-summary{
+    display: flex;
+}
+
+#product-summary img{
+height: 400px;
+}
+
+#product-info{
+    padding: 0 1em;
+}
+
+#product-summary h2{
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+#product-info p{
+    margin: 5px 0 1em 0;
+}
+
+#pricing-container, #product-description, #author-info{
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #dddddd;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+
+#pricing-container {
+    margin-top: 1em;
+}
+
+#pricing-container h3{
+    margin: 0 1em 0 0;
+}
+
+#pricing-container button{
+    background-color: #f0839e;
+    font-size: 1em;
+    padding: 10px 4em;
+    color: white;
+    border: none;
+}
+
+#pricing{
+    display:flex;
+    margin-bottom: 1em;
+}
+
+main{
+    background-color: #f7f7f7;
+    display:flex;
+    justify-content: center;
+}
+
+article{
+    width: 60em;
+    background-color: white;
+    padding: 0 10px;
+}
+
+#product-description p{
+    margin: 0 0 1em 0;
+    line-height: 1.6em;
+}
+
+#product-description a{
+    color: blue;
+}
+
+#product-details{
+    margin: 2em 0;
+}
+
+#product-details li {
+    margin-bottom: 1em;
+}
+
+#product-details ul{
+    padding: 0;
+}
+
+#product-details h2{
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+#author-info h3{
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#author-info p{
+    line-height: 1.6em;
+    margin-left: 0;
+}
+
+button i{
+    color: white;
+    margin-right: 10px;
+}
+
+#pricing p{
+    margin:0;
+    color:#b12704;
+}
+
+#pricing p:nth-child(2) {
+    font-size: 1.2em;
+}
+
+#pricing p:nth-child(3){
+    font-size: 11px;
+}
+
+@media (max-width:600px){
+    #product-summary{
+        flex-direction: column;
+    }
+}
